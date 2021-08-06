@@ -1,0 +1,34 @@
+.HexRgbConverter {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.HexRgbConverter-Form > input, .HexRgbConverter-Form > div {
+    line-height: 30px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.49);
+    -webkit-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.49);
+    -moz-box-shadow: 2px 3px 4px 1px rgba(0,0,0,0.49);
+}
+
+
+.HexRgbConverter-Form-HexInput {
+    text-transform: uppercase;
+}
+.HexRgbConverter-Form-RgbOutput {
+
+    min-height: 30px;
+    background-color: #FFF;
+}
